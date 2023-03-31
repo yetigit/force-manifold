@@ -13,3 +13,5 @@ target_link_libraries(${PROJECT_NAME} OpenVDB::openvdb)
 if (MSVC)
 	target_compile_options(${PROJECT_NAME} PRIVATE /openmp)
 endif()
+
+target_compile_definitions(${PROJECT_NAME} PRIVATE TINYOBJLOADER_IMPLEMENTATION)

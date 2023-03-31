@@ -5,7 +5,6 @@
 #include <openvdb/tools/VolumeToMesh.h>
 #include <openvdb/util/Util.h>
 #include <vector>
-#include <string>
 
 namespace force_mani{ 
 
